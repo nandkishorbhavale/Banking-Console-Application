@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Account {
+class Account {                             //tightly encapsulated class
     private String name, emailId;
     private long acNumber;
     private int amount;
@@ -32,11 +32,11 @@ class Account {
         return this.acNumber;
     }
 
-    // Amount
+    // Amount deposite
     public void setAmount(int amount) {
         this.amount += amount;
     }
-
+    //Amount Withdraw updation 
     public void setAmountWithdraw(int amount) {
         this.amount -= amount;
     }
