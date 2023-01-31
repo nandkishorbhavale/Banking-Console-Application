@@ -79,7 +79,8 @@ public class AccountInfo extends Account {
         System.out.println("Balance of " + AccountHolder.getAccountNumber() + " is: " + AccountHolder.getAmount());
 
         // Deposite amount
-
+        boolean flag = true;
+        while (flag) {
         System.out.println("What you Want: \n\t 1.Deposite Amount\n\t 2.Withdraw Amount\n");
         int operation = sc.nextInt();
         switch (operation) {
@@ -100,6 +101,7 @@ public class AccountInfo extends Account {
 
             default:
                 break;
+        }
         }
 
         sc.close();
