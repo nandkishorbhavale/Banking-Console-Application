@@ -36,7 +36,7 @@ class Account {                             //tightly encapsulated class
     public void setAmount(int amount) {
         this.amount += amount;
     }
-    //Amount Withdraw updation 
+    //Amount Withdraw updations 
     public void setAmountWithdraw(int amount) {
         this.amount -= amount;
     }
