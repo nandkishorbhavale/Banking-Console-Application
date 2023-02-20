@@ -71,7 +71,7 @@ public class AccountInfo extends Account {
 
         // displaying all the information of the user
         System.out.println();
-        System.out.println("****************************** Account Information ******************************");
+        System.out.println("****************************** Account Information *******************************");
         System.out.println();
         System.out.println("Name of the Account Holder is: " + AccountHolder.getName());
         System.out.println("Email Id of the " + Uname + " is: " + AccountHolder.getEailId());
