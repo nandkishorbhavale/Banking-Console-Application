@@ -50,7 +50,7 @@ class Account {                             //tightly encapsulated class.
     }
 
 }
-
+//inherite class
 public class AccountInfo extends Account {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
