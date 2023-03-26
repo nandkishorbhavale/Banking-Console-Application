@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Account {                             //tightly encapsulated class.
+class Account {                             //tightly encapsulated class
     private String name, emailId;
     private long acNumber;
     private int amount;
